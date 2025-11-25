@@ -5,7 +5,7 @@ It enables Admins, Artists, and Art Enthusiasts to collaborate on uploading, app
 
 👥 Team Members
 
-Archit Agnihotri (Leader)
+Archit Agnihotri
 
 Ayush Singh
 
