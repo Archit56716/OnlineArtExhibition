@@ -91,21 +91,6 @@ OnlineArtExhibition/
 │── README.md
 └── .gitignore
 
-🗄 Database Setup
-
-Run this in MySQL Shell:
-
-source C:/Users/archi/Downloads/OnlineArtExhibition/database.sql;
-
-
-This creates:
-
-users
-
-artworks
-
-exhibitions
-
 ⚙️ How to Compile & Run
 Compile:
 javac -d out -cp "lib/mysql-connector-j-9.5.0.jar" src\dao\*.java src\model\*.java src\app\*.java
