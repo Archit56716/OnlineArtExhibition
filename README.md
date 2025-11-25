@@ -117,14 +117,3 @@ java -cp "out;lib/mysql-connector-j-9.5.0.jar" app.Main
 
 👉 https://github.com/Archit56716/OnlineArtExhibition
 
-✔ Project Status
-
-Database created
-
-JDBC connection successful
-
-CRUD operations working
-
-Source code structured correctly
-
-Ready for internal/external practical submission
