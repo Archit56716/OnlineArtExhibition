@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS art_exhibition;
-USE art_exhibition;
+CREATE DATABASE IF NOT EXISTS online_art_exhibition;
+USE online_art_exhibition;
 
 CREATE TABLE IF NOT EXISTS users (
     id INT PRIMARY KEY AUTO_INCREMENT,
