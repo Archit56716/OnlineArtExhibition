@@ -14,91 +14,59 @@ Prince Dwivedi
 College Name-
 Galgotias University – B.Tech
 
-📌 Project Overview
+# Online Art Exhibition – Java Web Application
 
-The Online Art Exhibition Platform provides a virtual space where:
+## 📌 Project Overview
+The Online Art Exhibition is a Java-based web application that allows users to register, manage artworks, and participate in exhibitions. The project demonstrates core Java web development concepts including Servlets, JSP, JDBC, and MVC architecture.
 
-Artists upload artwork
+## 🛠 Technologies Used
+- Java 17
+- Apache Tomcat 10.1
+- MySQL 8
+- JDBC
+- Maven
+- JSP & Servlets (Jakarta EE)
 
-Admins approve/reject submissions
+## 📂 Project Structure
+src/main/java/
+├── dao/ # Database access layer
+├── model/ # Entity classes
+├── servlet/ # Controllers
+src/main/webapp/
+├── WEB-INF/
+├── signup.jsp
+└── index.jsp
 
-Users/Enthusiasts explore galleries, exhibitions, and purchase artwork
 
-This project demonstrates:
+## ⚙️ Setup Instructions
+1. Install Java 17 and Apache Tomcat 10.
+2. Create MySQL database using `database.sql`.
+3. Update DB credentials in `DBConnection.java`.
+4. Build the project:
+5. Deploy `OnlineArtExhibition.war` to Tomcat `webapps` folder.
+6. Start Tomcat and open:
+http://localhost:8080/OnlineArtExhibition
 
-✔ Core Java
-✔ Object-Oriented Programming
-✔ JDBC (MySQL connectivity)
-✔ DAO (Data Access Object) Pattern
-✔ 3-Layer Architecture
 
-🚀 Key Features:
+## 🚀 Core Features
+- User Registration with validation
+- Duplicate email prevention
+- MySQL database integration
+- MVC architecture
+- Robust error handling
 
-==👨‍💼 Admin
-Manage users
+## 🛡 Data Validation & Security
+- Server-side validation using Servlets
+- SQL Injection prevention using PreparedStatements
+- Input validation on forms
 
-Approve / reject artworks
+## 🎯 Learning Outcomes
+- Java Web Development using MVC
+- JDBC and database connectivity
+- Servlet lifecycle and request handling
+- Clean code and modular design
 
-Manage exhibitions
-
-System level configuration
-
-🎨 Artist:
-
-Upload artwork
-
-Participate in exhibitions
-
-Interact with users
-
-👥 Art Enthusiast:
-
-Explore galleries
-
-Join exhibitions
-
-Purchase artwork
-
-Give feedback
-
-🛠 Technology Stack
-Layer	Technology
-Language	Java (Core + JDBC)
-Database	MySQL 8.0
-Architecture	Model → DAO → Application
-Tools	VS Code, MySQL Shell, GitHub
-
-📁 Project Folder Structure:
-
-OnlineArtExhibition/
-│── lib/
-│   └── mysql-connector-j-9.5.0.jar
-│
-│── src/
-│   ├── app/
-│   │   └── Main.java
-│   ├── dao/
-│   │   ├── DBConnection.java
-│   │   ├── UserDAO.java
-│   │   ├── ArtworkDAO.java
-│   │   └── ExhibitionDAO.java
-│   ├── model/
-│   │   ├── User.java
-│   │   ├── Artwork.java
-│   │   └── Exhibition.java
-│
-│── database.sql
-│── README.md
-└── .gitignore
-
-⚙️ How to Compile & Run
-Compile:
-javac -d out -cp "lib/mysql-connector-j-9.5.0.jar" src\dao\*.java src\model\*.java src\app\*.java
-
-Run:
-java -cp "out;lib/mysql-connector-j-9.5.0.jar" app.Main
-
-🔗 GitHub Repository
-
-👉 https://github.com/Archit56716/OnlineArtExhibition
+## 👤 Author
+**Archit Agnihotri**  
+B.Tech CSE  
 
